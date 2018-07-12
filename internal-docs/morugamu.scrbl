@@ -135,6 +135,11 @@ This takes in a list of images (i.e. puzzle cards), and numbers them starting fr
 
 }
 
+@defproc[(pair-with-index [list list?])
+         (listof list?)]{
+This takes in a list of puzzle card images, and assigns a index to each of them. The index isn't added to the card itself as an image but a list of lists is made with each sublist containing the image and the index number.
+}
+
 
 
 @subsection{Clock Numbers}
