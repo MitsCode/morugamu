@@ -373,6 +373,13 @@ This function turns a list of 9 card images into an image of a page.
 
 @section{Market Research}
 
+@defproc[(title->index [string game:id?])
+         (game:id?)]{
+                     
+This function allows an index of a game to be returned given a string input of the name of the game.
+This function looks through the game table until a matching string is found. 
+}
+
 There's a set of tools we're building for examining the success of other board games and companies
 on the Kickstarter crowd funding platform.
 
